@@ -45,7 +45,7 @@ public class AppointmentsPanel extends JPanel {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            JOptionPane.showMessageDialog(this, "Error loading patients", "Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(this, "Error loading the patients", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
 
